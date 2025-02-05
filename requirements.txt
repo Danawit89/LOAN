@@ -25,3 +25,4 @@ jsonschema
 requests
 urllib3
 pillow
+uvicorn
