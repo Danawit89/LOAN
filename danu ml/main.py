@@ -73,6 +73,11 @@ def predict_loan_default(data: LoanData):
     
     except Exception as e:
         raise HTTPException(status_code=400, detail=f"Error in prediction: {str(e)}")
+    @app.get("/")
+def read_root():
+    return {"message": "Hello, World!"}
+
+
 
 # Run the app (using 'uvicorn' from the command line)
 # uvicorn app:app --reload
