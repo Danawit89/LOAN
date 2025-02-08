@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ### **3️⃣ Train the Model**:
 ```bash
-python src/train_model.py
+python main.py
 ```
 
 ### **4️⃣ Run FastAPI Server**:
@@ -120,7 +120,7 @@ python -m uvicorn main:app --reload
 
 This project is deployed using **Render**, allowing real-time loan default predictions.
 
-To access the API, visit: [Render API Link](https://loan-i2jn.onrender.com)  
+To access the API, visit: [Render API Link](https://loan-i2jn.onrender.com/docs)  
 
 ## **📌 Future Enhancements**:
 - ✔ Improve model performance with hyperparameter tuning  
