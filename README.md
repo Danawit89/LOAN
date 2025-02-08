@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ### 3️⃣ Train the Model
 python src/train_model.py
 ### 4️⃣ Run FastAPI Server
- python -m uvicorn app:app --reload
+ python -m uvicorn main:app --reload
 
  **Endpoint**: `POST /predict`
 **Input Format (JSON)**:
