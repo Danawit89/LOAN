@@ -24,7 +24,7 @@ This project aims to build a **machine learning model** that predicts whether a 
 ├── src/
 │   ├── train_model.py   # Model training script
 │   ├── preprocess.py    # Data preprocessing functions
-│   ├── app.py           # FastAPI app for deployment
+│   ├── main.py           # FastAPI app for deployment
 ├── README.md            # Project overview
 ├── requirements.txt     # Dependencies
 └── notebooks/           # Jupyter notebooks for EDA
